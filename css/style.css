@@ -16,6 +16,21 @@ ul li a{
 .padding{
     padding: 50px 100px;
 }
+/* Portfolio */
 .padding-top{
     padding-top: 40px;
+}
+.padding-img{
+    padding: 30px;
+}
+.background-color{
+    background-color:thistle;
+}
+/* About */
+.about{
+    background-color: #1bbc9c;
+    color: white;
+}
+.padding-top-bottom{
+    padding: 40px 0;
 }
