@@ -36,9 +36,16 @@ header .container, header .row{
 /* Nav */
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(27, 188, 156);
 }
 ul li{
     padding: 0 10px;
+}
+.fa-bars{
+    color: white;
 }
 /* /Nav */
 
@@ -147,6 +154,7 @@ form .btn.contact{
     background-color: #3b546d;
     padding: 40px 0;
     text-align: center;
+    
 }
 .footer-bottom{
     background-color: #2C3F50;
@@ -163,4 +171,16 @@ form .btn.contact{
     border: 1px solid white;
     display: inline-block;
     margin: 0 5px;
+}
+.icona_footer a i{
+    color: white;
+}
+.icona_footer:hover{
+    background-color: white;
+}
+.icona_footer:hover i{
+    color: black;
+}
+.margin_bottom_footer{
+    margin-bottom: 40px;
 }
