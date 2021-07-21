@@ -1,44 +1,63 @@
 /* Common */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .hero, .about{
     background-color: rgb(27, 188, 156);
+}
+section{
+    padding: 50px 0;
 }
 header, ul li a, .hero, .about, .footer-top, .footer-bottom{
     color: white;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-}
+
+
+/* Header */
 header{
     background-color: #2C3F50;
-    /* height: 80px;
+    height: 80px;
     position: fixed;
     top: 0;
     width: 100%;
-    line-height: 80px; */
 }
-ul li{
-    list-style: none;
-    /* padding: 0 10px; */
+header .container, header .row{
+    height: 100%;
 }
-ul li a{
-    text-decoration: none;
-}
-section{
-    padding: 80px 0;
-}
+/* /Header */
+
+/* Nav */
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-weight: 600;
 }
+ul li{
+    padding: 0 10px;
+}
+/* /Nav */
+
 /* Hero */
-/* .hero{
-    margin-top: 80px;
-} */
-.circle{
+.hero{
+    padding-top: 150px;
+}
+.avatar{
     display: inline-block;
-    height: 200px;
     width: 200px;
-    border-radius: 50%;
-    background-color: lightblue;
+}
+.separatore{
+    height: 3px;
+    width: 10%;
+    background-color: white;
+    border-radius: 10px; 
+}
+.display-flex{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.fa-star{
+    padding: 0 20px;
+    font-size: 20px;
 }
 /* Portfolio */
 .portfolio_img{
