@@ -1,36 +1,59 @@
-header{
-    background-color: #2C3F50;
-    border: 1px solid black;
+/* Common */
+.hero, .about{
+    background-color: rgb(27, 188, 156);
+}
+header, ul li a, .hero, .about, .footer-top, .footer-bottom{
     color: white;
 }
-.hero{
-    background-color: rgb(27, 188, 156);
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #2C3F50;
+    /* height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 80px; */
 }
 ul li{
     list-style: none;
+    /* padding: 0 10px; */
 }
 ul li a{
     text-decoration: none;
+}
+section{
+    padding: 80px 0;
+}
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
-.padding{
-    padding: 50px 100px;
+/* Hero */
+/* .hero{
+    margin-top: 80px;
+} */
+.circle{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: lightblue;
 }
 /* Portfolio */
-.padding-top{
-    padding-top: 40px;
-}
-.padding-img{
-    padding: 30px;
-}
-.background-color{
-    background-color:thistle;
+.portfolio_img{
+    background-color:#bb4b64;
+    border-radius: 5px;
+    margin: 10px 0;
+    /* overflow: hidden;  */
 }
 /* About */
 .about{
-    background-color: #1bbc9c;
-    color: white;
-    padding: 0px 130px;
+    padding: 80px 0;
+}
+.contenitore_margin_auto{
+    max-width: 1000px;
+    margin: auto;
 }
 .padding-testo{
     padding: 20px 10px;
@@ -38,18 +61,13 @@ ul li a{
 .download{
     padding: 30px 0;
 }
-.padding-contact{
-    padding: 0px 130px;
-}
 /* Footer */
 .footer-top{
     background-color: #3b546d;
     padding: 40px 0;
     text-align: center;
-    color: white;
 }
 .footer-bottom{
     background-color: #2C3F50;
-    color: white;
     padding: 40px 0;
 }

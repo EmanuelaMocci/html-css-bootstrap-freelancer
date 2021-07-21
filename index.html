@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
     <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- /Link Bootstrap -->
@@ -19,107 +24,125 @@
                 <div class="col-6">
                     <h3 class="text-uppercase">Start Bootstrap</h3>
                 </div>
-                <div class="col-6 text-end d-inline">
-                    <ul class="d-none d-sm-block">
-                        <li class="d-inline"><a href="#">Portfolio</a></li>
-                        <li class="d-inline"><a href="#">About</a></li>
-                        <li class="d-inline"><a href="#">Contact</a></li>
-                    </ul>
-                    <button class="d-sm-none align-self-center">
-                        Lorem
-                    </button>
-                </div>
-            </div>
+    
+                <div class="col-6 d-flex justify-content-end">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                 
+                          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIO</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </nav>
+                </div>  
+             </div>
         </div>
     </header>
 
 
     <main>
+        <!-- Hero -->
         <section class="hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 padding">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci soluta nam nesciunt repellat explicabo, quae, illo veniam sapiente deserunt ipsum eveniet nulla neque tenetur consequuntur. Quaerat veritatis temporibus cumque delectus?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro iusto quas error laudantium nihil ipsam facere veniam illum voluptatum eveniet? Ad beatae blanditiis, animi nesciunt velit reprehenderit temporibus ipsum expedita.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid minima ipsa quis sunt quaerat repellat vitae repellendus atque a aliquam, facilis libero illum, voluptatibus consequatur optio autem eaque alias adipisci!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo veritatis odit adipisci delectus unde. Est voluptates minus natus porro! At quidem eligendi nisi impedit odio! Hic dignissimos ipsa eum eligendi?
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci soluta nam nesciunt repellat explicabo, quae, illo veniam sapiente deserunt ipsum eveniet nulla neque tenetur consequuntur. Quaerat veritatis temporibus cumque delectus?
+                    <div class="col-12 text-center">
+                        <div class="circle"></div>
+                        <h1 class="text-uppercase">Start Bootstrap</h1>
+                        <p class="text-uppercase">Graphic Artist - Web Designer - Illustrator </p>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /Hero -->
 
+        <!-- Portfolio -->
         <section class="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="text-uppercase padding-top">Portfolio</h2>
+                    <div class=" col-12 text-center">
+                        <h2 class="text-uppercase">Portfolio</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 padding-img">
-                        <div class="background-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /Portfolio -->
 
         <section class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="text-uppercase padding-top">About</h2>
+            <div class="contenitore_margin_auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="text-uppercase">About</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6 padding-testo">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-6  padding-testo">
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6  padding-testo">
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 padding-testo">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nemo. Odit rerum ad laudantium, minus atque perferendis assumenda vitae, mollitia velit omnis ducimus sapiente nesciunt. Velit, adipisci dolore. Nostrum, dignissimos?</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center download">
+            
+                     <div class="col-12 text-center download">
                         <button>Download</button>
                     </div>
-                </div>
+                    
+            </div>
         </section>
 
-        <section class="contact padding-contact">
-            <div class="container">
-                <div class="row">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="text-uppercase padding-top">Contact me</h2>
+        <section class="contact">
+            <div class="contenitore_margin_auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="text-uppercase">Contact me</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="padding-testo">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique numquam, labore aspernatur tempore reiciendis consequuntur molestiae quis dolore. Corporis deleniti magni vero enim voluptatibus veritatis fugiat. Sit, consequatur! Animi.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto soluta possimus quisquam pariatur, mollitia ullam! Maiores quis blanditiis commodi incidunt quos eius voluptas optio officia, excepturi earum accusantium fugit nemo.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis natus nemo, dolores magnam debitis facere laborum dicta iste tempore voluptatem dolorum alias pariatur blanditiis accusamus aliquam dolore voluptates laudantium ad?
+                    <div class="row">
+                        <div class="col-12 padding-testo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur similique numquam, labore aspernatur tempore reiciendis consequuntur molestiae quis dolore. Corporis deleniti magni vero enim voluptatibus veritatis fugiat. Sit, consequatur! Animi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto soluta possimus quisquam pariatur, mollitia ullam! Maiores quis blanditiis commodi incidunt quos eius voluptas optio officia, excepturi earum accusantium fugit nemo.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis natus nemo, dolores magnam debitis facere laborum dicta iste tempore voluptatem dolorum alias pariatur blanditiis accusamus aliquam dolore voluptates laudantium ad?
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div>
+                    <div class="col-12 text-center">
                         <button>Send</button>
                     </div>
-                </div>
+                    </div>
             </div>
         </section>
     </main>
@@ -128,14 +151,14 @@
         <section class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4">
                         <h4>Location</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4">
                         <h4>Location</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-sm-4 col-lg-4">
                         <h4>Location</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -146,13 +169,15 @@
         <section class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-lg-12 text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </div>
                 </div>
             </div>
         </section>
     </footer>
-    
+ 
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
